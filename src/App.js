@@ -7,7 +7,7 @@ function App() {
 	const contextRef = useRef(null);
 	const [isDrawing, setIsDrawing] = useState(false);
 
-	// initalize our canvas API when our component is mounted
+	// initalize our canvas API when our component is  mounted
 	useEffect(() => {
 		const canvas = canvasRef.current;
 		canvas.width = window.innerWidth * 2;
